@@ -56,8 +56,8 @@ values of blocks.
 ## Supported versions
 
 - Python 3.8, 3.9, 3.10, 3.11, 3.12
-- Django 3.2, 4.0, 4.1
-- Wagtail 4.0, 4.1, 4.2
+- Django 3.2, 4.1, 4.2
+- Wagtail 5.0, 5.1, 5.2
 
 ## Quick Usage
 
