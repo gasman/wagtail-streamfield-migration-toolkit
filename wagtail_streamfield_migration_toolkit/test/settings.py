@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/stable/ref/settings/
 """
 
 import os
-from wagtail import VERSION as WAGTAIL_VERSION
 
 # Build paths inside the project like this: os.path.join(PROJECT_DIR, ...)
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -32,6 +31,7 @@ ALLOWED_HOSTS = ["localhost", "testserver"]
 INSTALLED_APPS = [
     "wagtail_streamfield_migration_toolkit",
     "wagtail_streamfield_migration_toolkit.test",
+    "wagtail_streamfield_migration_toolkit.test.wagtail4",
     "wagtail.contrib.search_promotions",
     "wagtail.contrib.forms",
     "wagtail.contrib.redirects",
@@ -57,9 +57,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.sitemaps",
 ]
-
-if WAGTAIL_VERSION >= (4, 0, 0):
-    INSTALLED_APPS.append("wagtail_streamfield_migration_toolkit.test.wagtail4")
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
