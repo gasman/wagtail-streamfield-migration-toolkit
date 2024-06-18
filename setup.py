@@ -45,10 +45,11 @@ setup(
         "Framework :: Django :: 5.0",
         "Framework :: Wagtail",
         "Framework :: Wagtail :: 5",
+        "Framework :: Wagtail :: 6",
     ],
     install_requires=[
         "Django>=4.2,<5.1",
-        "Wagtail>=5.0,<5.3",
+        "Wagtail>=5.2,<6.2",
     ],
     extras_require={
         "testing": [

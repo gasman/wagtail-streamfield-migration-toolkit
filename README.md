@@ -57,7 +57,7 @@ values of blocks.
 
 - Python 3.8, 3.9, 3.10, 3.11, 3.12
 - Django 4.2, 5.0
-- Wagtail 5.0, 5.1, 5.2
+- Wagtail 5.2, 6.0, 6.1
 
 ## Quick Usage
 
